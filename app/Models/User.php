@@ -10,6 +10,7 @@ use Illuminate\Notifications\Notifiable;
 class User extends Authenticatable
 {
     use HasFactory, Notifiable;
+    use \LaraZeus\Bolt\Models\Concerns\BelongToBolt;
 
     /**
      * The attributes that are mass assignable.
