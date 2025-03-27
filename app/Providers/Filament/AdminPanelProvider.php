@@ -29,6 +29,7 @@ class AdminPanelProvider extends PanelProvider
             ->id('admin')
             ->path('admin')
             ->login()
+            ->viteTheme('resources/css/filament/admin/theme.css')
             ->databaseNotifications()
             ->plugins([
                 SpatieLaravelTranslatablePlugin::make()
