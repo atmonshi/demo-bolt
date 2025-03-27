@@ -10,11 +10,11 @@
         "lara-zeus/bolt-pro": "^3.2",
         "lara-zeus/bolt": "^3.0",
         "laravel/framework": "^11.9",
+        "fakerphp/faker": "^1.23",
         "laravel/tinker": "^2.9"
     },
     "require-dev": {
         "roave/security-advisories": "dev-latest",
-        "fakerphp/faker": "^1.23",
         "laravel/pint": "^1.13",
         "laravel/sail": "^1.26",
         "mockery/mockery": "^1.6",
