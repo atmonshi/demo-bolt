@@ -38,7 +38,7 @@ class Test1Preset extends Preset
                     'require-login' => '',
                     'emails-notification' => '',
                 ], JSON_THROW_ON_ERROR),
-                'user_id' => 2,
+                'user_id' => 1,
 
                 //'category_id' => 1, // optional
                 //'start_date' => null, // optional
