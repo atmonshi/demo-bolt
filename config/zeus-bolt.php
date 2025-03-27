@@ -69,7 +69,7 @@ return [
      * a Contact form and Ticket support form.
      * if you dont want them, feel free to set this to false
      * */
-    'show_core_presets' => true,
+    'show_core_presets' => false,
 
     'should_cache_preset' => env('BOLT_CACHE_PRESET', true),
 
